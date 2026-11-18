@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Academic Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Academic Dashboard</h1>
+    <p>Welcome to your Academic Portal</p>
+</header>
+
+<nav>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#attendance">Attendance</a>
+    <a href="#marks">Marks</a>
+    <a href="#timetable">Timetable</a>
+</nav>
+
+<main id="dashboard">
+
+    <section class="profile">
+        <h2>Student Profile</h2>
+        <p>Name: Student Name</p>
+        <p>Department: CSE - AI & ML</p>
+        <p>Year: First Year</p>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Attendance</h3>
+            <p id="attendanceValue">85%</p>
+        </div>
+
+        <div class="card">
+            <h3>Average Marks</h3>
+            <p id="averageMarks">85%</p>
+        </div>
+
+        <div class="card">
+            <h3>CGPA</h3>
+            <p>8.5</p>
+        </div>
+
+    </section>
+
+    <section id="attendance">
+        <h2>Subject-wise Attendance</h2>
+
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Attendance</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>Programming in C</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>85%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="marks">
+        <h2>Internal Marks</h2>
+
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>45/50</td>
+            </tr>
+            <tr>
+                <td>Programming in C</td>
+                <td>42/50</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>40/50</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>44/50</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="timetable">
+        <h2>Weekly Timetable</h2>
+        <p>Monday - Mathematics</p>
+        <p>Tuesday - Programming in C</p>
+        <p>Wednesday - English</p>
+        <p>Thursday - HTML</p>
+        <p>Friday - Chemistry</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Student Academic Dashboard | Mini Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
